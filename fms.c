@@ -12,7 +12,7 @@ void print_main(FMS *pFMS){
         Airline *airline = &pFMS->pAirline[Line_Count];
         int *count = &airline-> pAirplane -> cntFlightPath;
         printf("%s | %d | ", airline -> AirlineName, airline -> cntAirplane);
-        printf("%d\n", *count);    
+        printf("%d\n", *count);  
     }
 };
 
