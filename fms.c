@@ -3,6 +3,6 @@
 #include <stdio.h>
 #include <string.h>
 
-void Test(void){
-
+int Test(void){
+    printf("Test!");
 };

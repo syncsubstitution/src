@@ -103,7 +103,3 @@ Airline Airlines[] = {
 FMS fms = {
     Airlines, 3
 };
-
-int main(void){
-    printf("%s", LH.AirplaneName);
-}
