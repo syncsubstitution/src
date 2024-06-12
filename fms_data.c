@@ -54,7 +54,7 @@ Airport MUC = {
 };
 
 FlightPath FP_LH[] = { 
-{"LH 2147", &MUC, &HAM, {11, 30}, {14, 30}},
+{"LH 2147", &MUC, &HAM, {11, 30}, {14, 30}}, 
 {"LH 2147", &HAM, &FRA, {15, 30}, {16, 30}},
 {"LH 2147", &FRA, &MUC, {18, 30}, {20, 30}},
 {"LH 2147", &MUC, &HAM, {20, 45}, {22, 00}},
@@ -101,9 +101,5 @@ Airline Airlines[] = {
 };
 
 FMS fms = {
-    Airlines, 3
+    Airlines, 3,
 };
-
-int main(void){
-    printf("%s", LH.AirplaneName);
-}

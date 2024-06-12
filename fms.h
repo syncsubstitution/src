@@ -1,6 +1,6 @@
 #ifndef FMS_H
 #define FMS_H
-#define r 6378.388 
+#define r 6378.388
 
 typedef struct Coordinates
 {
