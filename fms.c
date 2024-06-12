@@ -10,9 +10,10 @@ void print_main(FMS *pFMS){
     for (int Line_Count = 0; Line_Count < pFMS -> cntAirline; Line_Count++)
     {
         Airline *airline = &pFMS->pAirline[Line_Count];
-        int *count = &airline-> pAirplane -> cntFlightPath;
+        //int *count = &airline-> pAirplane -> cntFlightPath;
+        Airplane *airplane = &airline -> pAirplane;
         printf("%s | %d | ", airline -> AirlineName, airline -> cntAirplane);
-        printf("%d\n", *count);  
+        printf("%s\n", airplane -> AirVehReg);  
     }
 };
 
