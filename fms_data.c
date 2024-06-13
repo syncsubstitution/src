@@ -43,7 +43,7 @@ Airport STR = {
     "STR",
     {48, 41, 24},
     {9, 13, 19},
-    389
+    360
 };
 Airport MUC = {
     "EDDM",
