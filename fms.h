@@ -11,8 +11,8 @@ typedef struct Coordinates
 
 typedef struct Time
 {
-    unsigned char Hours;
-    unsigned char Minutes;
+    unsigned char Hours[2];
+    unsigned char Minutes[2];
 }Time;
 
 typedef struct Airport
